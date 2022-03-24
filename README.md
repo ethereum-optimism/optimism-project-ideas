@@ -22,5 +22,8 @@ Join our little Telegram community ([Optimism Skunk Works](https://t.me/+Cb7q0a1
 - [Implement Unicrawl](https://twitter.com/dhof/status/1475246745399476235)  
   The idea by Dom is a bit rough — meaning you have plenty of creative license to experiment with. Basically the game includes a roguelike aventure side and a "Dungeon Keeper" side. Figuring out the mechanics that make this work is the challenge!
 
+- [Automated Trading Bot](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click)  
+  A web app that lets users create automated trading bots, in the fashion of [Option Alpha](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click). This requires frontend, backend, contract and bot development!
+
 - ___Your Idea?___  
   Open up a pull request and get your own idea included here!
