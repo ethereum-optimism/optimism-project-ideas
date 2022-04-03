@@ -25,5 +25,8 @@ Join our little Telegram community ([Optimism Skunk Works](https://t.me/+Cb7q0a1
 - [Automated Trading Bot](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click)  
   A web app that lets users create automated trading bots, in the fashion of [Option Alpha](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click). This requires frontend, backend, contract and bot development!
 
+- ___Loans Against Yield-Bearing Instruments___  
+  The only loan protocol on Optimism is Aave, which is fairly conservative in its design. Something that would particularly interesting it the ability to loan against collateral that is yield-bearing (since that collateral doesn't have any other possible use). It would also be great to be able to loan against Optimism-native tokens and instruments (Lyra, Perp, ...). On other networks, [Abracadabra Money](https://abracadabra.money/) is a project that does this (although in their case, they emit their own stablecoins). Multiple variations on the design are possible: isolated & permissionless lending pools (like [Rari Capital](https://rari.capital/)), own stablecoin (like Abracadabra), self-repaying loans (capture the yield for loan repayment, like [Alchemix](https://alchemix.fi/)).
+
 - ___Your Idea?___  
   Open up a pull request and get your own idea included here!
