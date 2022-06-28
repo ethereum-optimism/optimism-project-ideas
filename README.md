@@ -50,11 +50,9 @@ Open source component that devs can embed in their own project provide in-app br
 **Bridge Lottery**  
 Slot machine extension for bridge that rewards random users with an NFT or other token.
 
-**Referral incentives**  
-Sybil resistant referral system where each new address a user gets to use OP is rewarded.
-
 **Bridge Snap for MetaMask**  
-An extension for MetaMask that allows bridging from within the wallet.
+An extension for MetaMask that allows bridging from within the wallet.  
+*See:* [MetaMask Snaps documentation](https://docs.metamask.io/guide/snaps-development-guide.html)
 
 **Referral incentives**  
 Sybil resistant referral system where each new address a user gets to use OP is rewarded.  
@@ -85,7 +83,7 @@ A protocol and UI for address-to-address messaging.
 A synth protocol that somewhat ressembles CFDs. The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See the design notes for more information.
 
 **Automated Trading Bot**  
-A web app that lets users create automated trading bots, in the fashion of Option Alpha. This requires frontend, backend, contract and bot development!
+A web app that lets users create automated trading bots, in the fashion of Option Alpha. This requires frontend, backend, contract and bot development!  
 *See*: [Podcast](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click)  
 <br>
 
