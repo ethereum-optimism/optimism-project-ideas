@@ -1,32 +1,100 @@
-# Optimism Project Ideas
+![Frame 1 (10) copy](https://user-images.githubusercontent.com/1016190/176318619-852ebfb8-7972-4c30-8c47-06e6ca3d5493.png)
 
-Ideas for project to be deployed on Optimism. I'll try to support you as best I can!
 
-Feel also free to contribute to existing projects (or even to fork them, if stalled).
+If you're looking for inspiration, you're in the right place :sparkles: 
 
-Join our little Telegram community ([Optimism Skunk Works](https://t.me/+Cb7q0a1YqItkZTRk)) to keep up to date with the latest developments and be part of the fun.
+The Optimism ecosystem is overflowing with opportunity for builders. The OP community has collected a few ideas that are ready to get started on.
 
-## Ongoing Projects
+**Want to build?**  
+— Pick an idea from the list below.  
+— Jump in to **[#dev-support](https://discord.com/channels/667044843901681675/887914409207414785)** or **[#l2-jobs](https://discord.com/channels/667044843901681675/955547725125005342)** on [Discord](https://discord-gateway.optimism.io/) to chat about what you want to build. You can also join the informal [Skunkworks chat](https://t.me/+Cb7q0a1YqItkZTRk) on Telegram.  
+— Open a PR on this repo to move the project to "looking for contributors" and add your contact info.
 
-- [Optimistic CFD](https://github.com/2xic/optimistic-cfd)  
-  A synth protocol that somewhat ressembles [CFDs](https://www.investopedia.com/articles/stocks/09/trade-a-cfd.asp). The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See [the design notes](https://github.com/2xic/optimistic-cfd/issues/1) for more information.
+**Have an idea?**  
+Just start building! If you want help finding contributors, open a PR on this repository to add your idea to the list.
 
-- [Space NFT Game](https://github.com/JFF-Danno/SpaceNFTGame)  
-  A OGame-like planet-building space-conquesting game.
-  
-## Ideas
+**Don't know where to start?**  
+Come hang out in Discord! Share what you want to contribute, or look out for other team's asks. 
 
-- ___Permissionless NFT Bridge___  
-  There are other people working on similar ideas, but there is space for competition. It would be good to have a protocol that would enable permissionless bridging of any NFT from mainnet onto Optimism. One particular problem of interest to be solved is that of fast withdrawal (as it stands, secure withdrawals must wait until the end of the 7-day challenge window). I think this issue could be solved with on-chain signatures and liquidity pools to guarantee payments (similar to insurance protocols).
+# Ideas
 
-- [Implement Unicrawl](https://twitter.com/dhof/status/1475246745399476235)  
-  The idea by Dom is a bit rough — meaning you have plenty of creative license to experiment with. Basically the game includes a roguelike aventure side and a "Dungeon Keeper" side. Figuring out the mechanics that make this work is the challenge!
+### 🛠 **`Dev Tools`**
 
-- [Automated Trading Bot](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click)  
-  A web app that lets users create automated trading bots, in the fashion of [Option Alpha](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click). This requires frontend, backend, contract and bot development!
+**Meta Faucet**  
+An alternative to a traditional faucet: the user uploads their contract + params/bytecode and the relayer deploys it for free and sends the user ~2 OP Kovan ETH for testing. Could require users to scan a QR code to use during events.
 
-- ___Loans Against Yield-Bearing Instruments___  
-  The only loan protocol on Optimism is Aave, which is fairly conservative in its design. Something that would particularly interesting it the ability to loan against collateral that is yield-bearing (since that collateral doesn't have any other possible use). It would also be great to be able to loan against Optimism-native tokens and instruments (Lyra, Perp, ...). On other networks, [Abracadabra Money](https://abracadabra.money/) is a project that does this (although in their case, they emit their own stablecoins). Multiple variations on the design are possible: isolated & permissionless lending pools (like [Rari Capital](https://rari.capital/)), own stablecoin (like Abracadabra), self-repaying loans (capture the yield for loan repayment, like [Alchemix](https://alchemix.fi/)).
+**SDK Contributions**  
+Anything from improving documentation, adding a feature to creating a tutorial! Our SDK is still in it’s early stages, so all contributions are welcome and encouraged!  
+[SDK Docs](https://sdk.optimism.io/), [Repo](https://github.com/ethereum-optimism/optimism/tree/develop/packages/sdk)
 
-- ___Your Idea?___  
-  Open up a pull request and get your own idea included here!
+**Fix Hardhat Forking**  
+Fix Hardhat forking for L1BlockNumber opcode. You will be a legend forever.  
+<br>
+
+### 🌱 **`Public Goods`**
+
+**RetroPGF dashboard**   
+Help make RetroPGF approachable. Show data from the previous rounds, include links to articles (our article, Vitaliks).
+
+**Tokenized GitHub repo**  
+High level objective: Influence developers to reflect their work in tokens so we can fund them with RetroPGF. Rough idea: Make it easy to tokenize a GH repo. The owner can choose an initial allocation, automatic rewards for merged PRs, etc. They are then responsible for distributing the tokens to contributors, etc.
+
+**Token-gated GitHub repos**  
+Write a GitHub app that invites users to a repo if they connect their wallet and own a particular token.  
+<br>
+
+### 🪩 **`Bridging`**
+**Full Wallet Migration**  
+Bridge multiple / all tokens (ERC20 & ERC721) from your L1 wallet to Optimism in one transaction. 
+
+**Embedded gateway**  
+Open source component that devs can embed in their own project provide in-app bridging.
+
+**Bridge Lottery**  
+Slot machine extension for bridge that rewards random users with an NFT or other token.
+
+**Referral incentives**  
+Sybil resistant referral system where each new address a user gets to use OP is rewarded.
+
+**Bridge Snap for MetaMask**  
+An extension for MetaMask that allows bridging from within the wallet.
+
+**Referral incentives**  
+Sybil resistant referral system where each new address a user gets to use OP is rewarded.  
+<br>
+
+### 🔰 **`NFTs`**
+
+**L2 Gift Cards**  
+An L1 NFT that sends ETH or OP to your L2 address when bridged over.  
+*See also:* [Bridge Pass](https://d.mirror.xyz/Sjpxa2r_wxkQUGXUr8oO2PhBlyfIRgLBx2YevoXXwyY)
+
+**Nested NFTs**  
+Create a new standard or implementation for NFTs that can own NFTs. Think: item inventory, accessories, composable art.  
+<br>
+
+### 🎪 **`Social`**
+
+**Onchain Activity Feed**  
+A simple app that allows a user to connect a wallet and see what the addresses they've previously interacted with are up to now. Bonus points for categorizing contracts or rendering transactions with rich metadata.  
+
+**Notification service**  
+A protocol and UI for address-to-address messaging.   
+*See also*: [Pearl](https://showcase.ethglobal.com/ethnewyork2022/pearl-fpatq), [EPNS](https://epns.io/)  
+<br>
+
+### 📊 **`DeFi`**  
+[**Optimistic CFD**](https://github.com/2xic/optimistic-cfd) `👀 LOOKING FOR CONTRIBUTORS`  
+A synth protocol that somewhat ressembles CFDs. The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See the design notes for more information.
+
+**Automated Trading Bot**  
+A web app that lets users create automated trading bots, in the fashion of Option Alpha. This requires frontend, backend, contract and bot development!
+*See*: [Podcast](https://optionalpha.com/podcast/build-a-fully-automated-options-portfolio-with-3000-in-1-click)  
+<br>
+
+# Past Hackathon Winners
+|Project | Description |Hackathon|
+|:--|:--|:--|
+| [**Retr0x**](https://showcase.ethglobal.com/ethamsterdam/retr0x-2p73o) | Fully on-chain retro-generative public goods funding app deployed with Optimism. Our implementation includes funding initiation with a curated whitelist, a smart contract that executes quadratic voting and fund disbursement logic and a dashboard to access on-chain data. | ETHAmsterdam |
+ [**Stargaze**](https://ethglobal.com/showcase/stargaze-igmkq) | Today, open source projects are based on voluntary contributions. While these contributors do not seek financial gain for their contributions, the donations made to these projects rarely reach many of the downstream developers and contributors that have created and maintain them. <br><br>We aim to solve that problem by distributing funds to contributors when donations to projects are made by supporters. In this current implementation, Stargaze uses a basic metric to value contributions and calculate an impact score representing a contributor’s share of the total value created. He or she receives donations proportionately to his or her share.| ETHNewYork |
+ [**ETHdos**](https://ethglobal.com/showcase/ethdos-yyj28) | ETHdos numbers measure degrees of separation of people (akin to Bacon/Erdos numbers) while hiding individual friendships entirely. This is the first of its kind social experiment using the composability of recursive zk snarks. | ETHNewYork | 
