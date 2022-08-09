@@ -26,6 +26,9 @@ Anything from improving documentation, adding a feature to creating a tutorial! 
 
 **Fix Hardhat Forking**  
 Fix Hardhat forking for L1BlockNumber opcode. You will be a legend forever.  
+
+**ethgasstation for Optimism**  
+Create a version of https://ethgasstation.info/ that tracks and reports on gas fees and more for Optimism.  
 <br>
 
 ### 🌱 **`Public Goods`**
