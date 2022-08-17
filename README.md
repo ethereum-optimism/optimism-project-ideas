@@ -18,14 +18,11 @@ Come hang out in [Discord](https://discord-gateway.optimism.io/)! Share what you
 ### 🛠 **`Dev Tools`**
 
 **Meta Faucet**  
-An alternative to a traditional faucet: the user uploads their contract + params/bytecode and the relayer deploys it for free and sends the user ~2 OP Kovan ETH for testing. Could require users to scan a QR code to use during events.
+An alternative to a traditional faucet: the user uploads their contract + params/bytecode and the relayer deploys it for free and sends the user ~2 OP Goerli ETH for testing. Could require users to scan a QR code to use during events.
 
 **SDK Contributions**  
 Anything from improving documentation, adding a feature to creating a tutorial! Our SDK is still in it’s early stages, so all contributions are welcome and encouraged!  
 [SDK Docs](https://sdk.optimism.io/), [Repo](https://github.com/ethereum-optimism/optimism/tree/develop/packages/sdk)
-
-**Fix Hardhat Forking**  
-Fix Hardhat forking for L1BlockNumber opcode. You will be a legend forever.  
 
 **ethgasstation for Optimism**  
 Create a version of https://ethgasstation.info/ that tracks and reports on gas fees and more for Optimism.  
