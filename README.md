@@ -28,6 +28,9 @@ Anything from improving documentation, adding a feature to creating a tutorial! 
 Create a version of https://ethgasstation.info/ that tracks and reports on gas fees and more for Optimism.  
 <br>
 
+**Bedrock based indexer**  
+Create a way of serving verifiable indexed data from on chain via creating an app specific rollup based on bedrock.   Bedrock is made of modular pieces and by creating a prover to prove indexed data you can plug that into the rest of Bedrock to create a scalable and trustless indexing layer that can serve as a replacement for Infura/Alchemy or The Graph.
+
 ### 🌱 **`Public Goods`**
 
 **RetroPGF dashboard**   
