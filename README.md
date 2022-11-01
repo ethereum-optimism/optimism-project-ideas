@@ -26,7 +26,12 @@ Anything from improving documentation, adding a feature to creating a tutorial! 
 
 **ethgasstation for Optimism**  
 Create a version of https://ethgasstation.info/ that tracks and reports on gas fees and more for Optimism.  
+
+**Blockchain & infrastructure projects**  
+For more ideas on how to develop the rollup itself or its supporting infrastructure, checkout the [Infrastructure Project Ideas][infra] page. These projects tend to be beefier, and cater to aspiring blockchain devs.
 <br>
+
+[infra]: infrastructure.md
 
 ### 🌱 **`Public Goods`**
 
