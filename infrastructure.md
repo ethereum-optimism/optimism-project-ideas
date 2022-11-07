@@ -162,6 +162,32 @@ efforts.
 [Metablock]: https://mev.metablock.dev
 [flashbots-l2]: https://collective.flashbots.net/t/quantifying-mev-on-l2s/450/7
 
+### L1 event triggers on L2
+
+Modify Bedrock so that it's possible to register L1 event triggers on L2: By
+calling a contract on L2, an L2 user can register an action to be performed
+when certain L1 events are emitted, and fund the execution of the action.
+
+Bedrock's rollup node would then parse the action, and create transactions to
+perform the triggered action. (This is just a strawman design, other designs are
+possible and might be preferable.)
+
+Alternatively, you could create a system that does this without modifying the
+protocol, by offering a bounty to people who relay the L1 event to L2 (proving
+it against the L1 blockhash available on L2, via the [L1BLock] contract.
+
+[L1Block]: https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/contracts/L2/L1Block.sol
+
+### OP Stack Configurator
+
+Build a tool that enables putting together a configuration of the OP stack,
+choosing between multiple alternatives for various modules (e.g. op-geth or
+op-erigon, Ethereum calldata / EIP-4844 / Celestia / IPFS for data availability,
+different VMs...).
+
+This is probably on longer time frame project: we need more modules to be
+created and stabilized first!
+
 ### Alternative Solidity Compiler
 
 It's no secret that the existing Solidity compiler, while receiving a lot of
