@@ -6,7 +6,7 @@ The Optimism ecosystem is overflowing with opportunity for builders. The OP comm
 Pick an idea from the list below. Jump in to [#dev-support](https://discord.com/channels/667044843901681675/887914409207414785) or [#l2-jobs](https://discord.com/channels/667044843901681675/955547725125005342) on [Discord](https://discord-gateway.optimism.io/) to chat about what your projects or find others to work with. You can also join the informal [Skunkworks chat](https://t.me/+Cb7q0a1YqItkZTRk) on Telegram. Last, open a PR on this repo to add `👀 LOOKING FOR CONTRIBUTIORS` with a link to your repo or contact info.
 
 **Have an idea?**  
-Just start building! If you want help finding contributors, open a PR on this repository to add your idea to the list.
+Just start building! If you want help finding contributors, open a PR on this repository to add your idea to the list. Alternatively share your idea or feature request on our [GitHub discussions forum!](https://github.com/ethereum-optimism/optimism-project-ideas/discussions/7) 
 
 **Don't know where to start?**  
 Come hang out in [Discord](https://discord-gateway.optimism.io/)! Share what you want to contribute, or look out for other team's asks. 
