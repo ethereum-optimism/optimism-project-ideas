@@ -65,6 +65,9 @@ Sybil resistant referral system where each new address a user gets to use OP is 
 
 ### 🔰 **`NFTs`**
 
+**Composable Allowlists**
+Create a way for projects to allowlist certain addresses and make those allowlists shareable using the [AttestationStation](optimism.io/reputation)
+
 **L2 Gift Cards**  
 An L1 NFT that sends ETH or OP to your L2 address when bridged over.  
 *See also:* [Bridge Pass](https://d.mirror.xyz/Sjpxa2r_wxkQUGXUr8oO2PhBlyfIRgLBx2YevoXXwyY)
