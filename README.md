@@ -1,9 +1,9 @@
 ![Frame 1 (10) copy](https://user-images.githubusercontent.com/1016190/176318619-852ebfb8-7972-4c30-8c47-06e6ca3d5493.png)
 
-The Optimism ecosystem is overflowing with opportunity for builders. The OP community has collected a few ideas that are ready to get started on. If you're looking for inspiration, you're in the right place :sparkles: 
+The Optimism ecosystem is overflowing with opportunities for builders. The OP community has collected a few ideas that are ready to get started on. If you're looking for inspiration, you're in the right place :sparkles: 
 
 **Want to build?**  
-Pick an idea from the list below. Jump in to [#dev-support](https://discord.com/channels/667044843901681675/887914409207414785) or [#l2-jobs](https://discord.com/channels/667044843901681675/955547725125005342) on [Discord](https://discord-gateway.optimism.io/) to chat about what your projects or find others to work with. You can also join the informal [Skunkworks chat](https://t.me/+Cb7q0a1YqItkZTRk) on Telegram. Last, open a PR on this repo to add `👀 LOOKING FOR CONTRIBUTIORS` with a link to your repo or contact info.
+Pick an idea from the list below. Jump in to [#dev-support](https://discord.com/channels/667044843901681675/887914409207414785) or [#l2-jobs](https://discord.com/channels/667044843901681675/955547725125005342) on [Discord](https://discord-gateway.optimism.io/) to chat about what your projects or find others to work with. You can also join the informal [Skunkworks chat](https://t.me/+Cb7q0a1YqItkZTRk) on Telegram. Last, open a PR on this repo to add `👀 LOOKING FOR CONTRIBUTORS` with a link to your repo or contact info.
 
 **Have an idea?**  
 Just start building! If you want help finding contributors, open a PR on this repository to add your idea to the list. Alternatively share your idea or feature request on our [GitHub discussions forum!](https://github.com/ethereum-optimism/optimism-project-ideas/discussions/7) 
@@ -21,7 +21,7 @@ Come hang out in [Discord](https://discord-gateway.optimism.io/)! Share what you
 An alternative to a traditional faucet: the user uploads their contract + params/bytecode and the relayer deploys it for free and sends the user ~2 OP Goerli ETH for testing. Could require users to scan a QR code to use during events.
 
 **SDK Contributions**  
-Anything from improving documentation, adding a feature to creating a tutorial! Our SDK is still in it’s early stages, so all contributions are welcome and encouraged!  
+Anything from improving documentation, adding a feature to creating a tutorial! Our SDK is still in its early stages, so all contributions are welcome and encouraged!  
 [SDK Docs](https://sdk.optimism.io/), [Repo](https://github.com/ethereum-optimism/optimism/tree/develop/packages/sdk)
 
 **ethgasstation for Optimism**  
@@ -88,7 +88,7 @@ A protocol and UI for address-to-address messaging.
 
 ### 📊 **`DeFi`**  
 [**Optimistic CFD**](https://github.com/2xic/optimistic-cfd) `👀 LOOKING FOR CONTRIBUTORS`  
-A synth protocol that somewhat ressembles CFDs. The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See the design notes for more information.
+A synth protocol that somewhat resembles CFDs. The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See the design notes for more information.
 
 **Automated Trading Bot**  
 A web app that lets users create automated trading bots, in the fashion of Option Alpha. This requires frontend, backend, contract and bot development!  
