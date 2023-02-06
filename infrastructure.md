@@ -101,8 +101,8 @@ It shouldn't be too hard to adapt our changes to other execution clients!
 
 ### Alternative Virtual Machine for the OP Stack
 
-Not only can the OP stack accomodate alternative execution clients, it could
-accomodate completely different execution engines, or different ways to run
+Not only can the OP stack accommodate alternative execution clients, it could
+accommodate completely different execution engines, or different ways to run
 transactions.
 
 What if rollup smart contracts could be written in MIPS, WASM, RISC V, the JVM,
@@ -134,7 +134,7 @@ We're interested in prototyping and trying out the idea. Reach out if interested
 ### Round-Robin Sequencing
 
 Decentralizing the sequencer is an important endeavour in the quest for full
-decentralization. This will done progressively, and one of our first step will
+decentralization. This will be done progressively, and one of our first step will
 likely be to adopt a permissioned set of sequencers which will sequence the L2
 chain in a round-robin fashion (i.e. one at a time).
 
@@ -147,8 +147,8 @@ move forward with sequencer decentralization relatively soon!
 ### Optimism MEV Explorer
 
 While Optimism has at present a private mempool which prevents a lot of the MEV
-extraction that we see on other chains, there is undibitably a lot of MEV
-extraction going on. Arbitrages and liquidations don't disappear beause people
+extraction that we see on other chains, there is indubitably a lot of MEV
+extraction going on. Arbitrages and liquidations don't disappear because people
 can't peer into the mempool.
 
 We'd love to know more about the MEV activity on Optimism. If you have the
