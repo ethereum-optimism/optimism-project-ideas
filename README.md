@@ -70,7 +70,7 @@ Create a way for projects to allowlist certain addresses and make those allowlis
 
 **L2 Gift Cards**  
 An L1 NFT that sends ETH or OP to your L2 address when bridged over.  
-*See also:* [Bridge Pass](https://d.mirror.xyz/Sjpxa2r_wxkQUGXUr8oO2PhBlyfIRgLBx2YevoXXwyY)
+*See also:* [Bridge Pass](https://d.mirror.xyz/Sjpxa2r_wxkQUGXUr8oO2PhBlyfIRgLBx2YevoXXwyY) and [OptimisticArt](https://optimisticart.com) ([source](https://github.com/DanieleSalatti/optimistic-art))
 
 **Nested NFTs**  
 Create a new standard or implementation for NFTs that can own NFTs. Think: item inventory, accessories, composable art.  
