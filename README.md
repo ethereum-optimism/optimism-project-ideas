@@ -108,15 +108,15 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
 
 ### Identity Quick Hits
 
-Events Ticketing: Create an application that lets creators create an event ticketing flow using attestations.
+- **Events Ticketing:** Create an application that lets creators create an event ticketing flow using attestations.
 
-ATST Friending: Create an application that lets people meet and connect through consensual attestations, such as exchanging info at a conference.
+- **ATST Friending:** Create an application that lets people meet and connect through consensual attestations, such as exchanging info at a conference.
 
-ATST Ratings: Allow users to “rate” dapps that they have interacted with. Bonus points for making this cross-chain, enabling ratings for apps on OP Stack chains, Ethereum, or more.
+- **ATST Ratings:** Allow users to “rate” dapps that they have interacted with. Bonus points for making this cross-chain, enabling ratings for apps on OP Stack chains, Ethereum, or more.
 
-Next Level Token Gating: Instead of using tokens to lock access to something, instead have access unlock after getting specific attestations, or a certain threshold of multiple attestations. 
+- **Next Level Token Gating:** Instead of using tokens to lock access to something, instead have access unlock after getting specific attestations, or a certain threshold of multiple attestations. 
 
-Walletless Onboarding: Create a “low security zone”, similar to “free” users in a free-to-play game, where users can access features that don’t require signatures. 
+- **Walletless Onboarding:** Create a “low security zone”, similar to “free” users in a free-to-play game, where users can access features that don’t require signatures. 
 
 
 
