@@ -71,7 +71,7 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
 
 - **ATST Indexer/Subgraph:** The indexer tracks attestations via the AttestationStation by user account. The ATST Explorer then uses this data to populate attestation history. Indexer should include an API server, which serves data to web browsers. Try using ponder.sh or The Graph to start.
 
- - **ATST Explorer:**  Build Etherscan-for-Attestations. No-code interface used to view, create, update, explore, and contextualize attestations.
+- **ATST Explorer:**  Build Etherscan-for-Attestations. No-code interface used to view, create, update, explore, and contextualize attestations.
 
   - Search for attestations by attester address, receiver address, and transaction hash
   - See the latest attestations and all attestations
