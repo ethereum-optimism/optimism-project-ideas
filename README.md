@@ -5,7 +5,9 @@
 
 The Optimism ecosystem is overflowing with opportunity for builders. With OP Stack, Optimism Mainnet, and AttestationStation at your disposal, here is an always-growing list of Big Ideas for you to build.
 
-These ideas range from “the community really wishes this tool existed” all the way to “might change the course of human history.” We draw inspiration from sources like [Vitalik’s blog](https://vitalik.ca/), community suggestions, and late-night brainstorms at conferences. Whether you’re hacking, shipping, or scaling, there’s something on the list where you can make your mark.
+These ideas range from “the community really wishes this tool existed” all the way to “might change the course of human history.” 
+We draw inspiration from sources like [Vitalik’s blog](https://vitalik.ca/), community suggestions, and late-night brainstorms at conferences. 
+Whether you’re hacking, shipping, or scaling, there’s something on the list where you can make your mark.
 
 ## Getting Started
 
@@ -24,7 +26,9 @@ These ideas range from “the community really wishes this tool existed” all t
 | ATTN ETHDenver Hackers: consider ideas from here to get started hacking. Many of these qualify for [Optimism’s official BUIDLathon bounties](https://oplabs.notion.site/Optimism-in-Denver-5f3f32a7469b4bbb94c11cf71ada8529). Note that whether something is on this list does not impact judging. However, these ideas have been identified as exciting by our community and may be rewarded with traction, which is a strong qualifier for RetroPGF and other rewards. |
 | :- |
 
-Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows people to start building their identity onchain. This smart contract provides a permissionless, accessible data source that enables anyone to make reputation-based applications. The following ideas make use of AttestationStation to create new identity primitives, reputation products, and even some competitors to real-world IDs.
+Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows people to start building their identity onchain. 
+This smart contract provides a permissionless, accessible data source that enables anyone to make reputation-based applications. 
+The following ideas make use of AttestationStation to create new identity primitives, reputation products, and even some competitors to real-world IDs.
 
 
 ### Tools and Resources
@@ -50,7 +54,7 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
 
 - **Global Passport NFT:** Create an NFT that acts as a global passport, which can receive “stamps” to signal where you’ve visited. 
 
-- **Decentralized Financial Regulator / Project Reputation:** Free, open source, on-chain star ratings of crypto projects. (h/t [Balaji](https://twitter.com/balajis/status/1625723092537573376?s=46&t=t1EPp982MOOLNfuJTYeRlA))
+- **Decentralized Project Reputation:** Free, open source, on-chain star ratings of crypto projects.
 
 
 ### Identity Use Cases
