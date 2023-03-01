@@ -46,11 +46,11 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
   - [Public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)
   - [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust)
 
-**Anti-Sybil Protocol / API:** Imagine an open, permissionless anti-Sybil API that any project can use to block fake accounts who do nothing but engagement farm.
+- **Anti-Sybil Protocol / API:** Imagine an open, permissionless anti-Sybil API that any project can use to block fake accounts who do nothing but engagement farm.
 
-**Global Passport NFT:** Create an NFT that acts as a global passport, which can receive “stamps” to signal where you’ve visited. 
+- **Global Passport NFT:** Create an NFT that acts as a global passport, which can receive “stamps” to signal where you’ve visited. 
 
-**Decentralized Financial Regulator / Project Reputation:** Free, open source, on-chain star ratings of crypto projects, eventually adopted by US states and foreign states in lieu of SEC. (h/t [Balaji](https://twitter.com/balajis/status/1625723092537573376?s=46&t=t1EPp982MOOLNfuJTYeRlA))
+- **Decentralized Financial Regulator / Project Reputation:** Free, open source, on-chain star ratings of crypto projects, eventually adopted by US states and foreign states in lieu of SEC. (h/t [Balaji](https://twitter.com/balajis/status/1625723092537573376?s=46&t=t1EPp982MOOLNfuJTYeRlA))
 
 
 ### Identity Use Cases
