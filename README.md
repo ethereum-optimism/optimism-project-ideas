@@ -10,7 +10,7 @@ These ideas range from “the community really wishes this tool existed” all t
 ## Getting Started
 
 - Pick an idea – any idea – and start building.
-- Use the [Optimism Starter Kit](https://github.com/ethereum-optimism/optimism-starter), one of our [Getting Started tutorials](https://github.com/ethereum-optimism/optimism-tutorial), or [the AttestationStation guide](https://github.com/ethereum-optimism/optimism-tutorial/tree/main/ecosystem/attestation-station).
+- Use the [Optimism Starter Kit](https://github.com/ethereum-optimism/optimism-starter), our [Getting Started tutorial](https://github.com/ethereum-optimism/optimism-tutorial/tree/main/getting-started), or [the AttestationStation guide](https://github.com/ethereum-optimism/optimism-tutorial/tree/main/ecosystem/attestation-station).
 - If you’re the run-your-own-rollup type, [get started with OP Stack](https://stack.optimism.io/docs/build/getting-started/).
 - Join us on [Discord](https://discord-gateway.optimism.io/) or [Telegram](https://t.me/+Cb7q0a1YqItkZTRk) to chat with other Optimism devs, find other builders working on ideas, and tell us what you’re working on.
 
@@ -20,7 +20,9 @@ These ideas range from “the community really wishes this tool existed” all t
 # Ideas
 
 ## New: Build These Identity Ideas
-[ Callout ] ATTN ETHDenver Hackers: consider ideas from here to get started hacking. Many of these qualify for Optimism’s official BUIDLathon bounties. Note that whether something is on this list does not impact judging. However, these ideas have been identified as exciting by our community and may be rewarded with traction, which is a strong qualifier for RetroPGF and other rewards. [ /Callout ]
+
+| ATTN ETHDenver Hackers: consider ideas from here to get started hacking. Many of these qualify for [Optimism’s official BUIDLathon bounties](https://oplabs.notion.site/Optimism-in-Denver-5f3f32a7469b4bbb94c11cf71ada8529). Note that whether something is on this list does not impact judging. However, these ideas have been identified as exciting by our community and may be rewarded with traction, which is a strong qualifier for RetroPGF and other rewards. |
+| :- |
 
 Optimism’s AttestationStation (ATST) is a data primitive that allows people to start building their identity onchain. This smart contract provides a permissionless, accessible data source that enables anyone to make reputation-based applications. The following ideas make use of AttestationStation to create new identity primitives, reputation products, and even some competitors to real-world IDs.
 
