@@ -58,7 +58,6 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
 - **Deep Fake Protection:** Create a tool for creators to attest that a livestream, video, image, or clip is from their real account(s). (h/t Livepeer)
 
 - **Onchain Gaming Achievement System:** Create a decentralized achievement system as a public good that other games can build with.
-
   Features could include:
   - Traditional achievement system that activates an achievement-attestation when you accomplish something in-game.
   - “Props” system that you can say a teammate was good at healing, DPS, etc, to help with finding pickup groups in other games.
@@ -68,43 +67,46 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
 
 ### AttestationStation Tooling
 
-“Lazy Attestations”: Off-Chain program that aggregates not-yet-committed attestations, then  handles committing them all in one go or using them as call data.
+- **“Lazy Attestations”:** Off-Chain program that aggregates not-yet-committed attestations, then  handles committing them all in one go or using them as call data.
 
-ATST Indexer/Subgraph: The indexer tracks attestations via the AttestationStation by user account. The ATST Explorer then uses this data to populate attestation history. Indexer should include an API server, which serves data to web browsers. Try using ponder.sh or The Graph to start.
+- **ATST Indexer/Subgraph:** The indexer tracks attestations via the AttestationStation by user account. The ATST Explorer then uses this data to populate attestation history. Indexer should include an API server, which serves data to web browsers. Try using ponder.sh or The Graph to start.
 
-ATST Explorer: Build Etherscan-for-Attestations. No-code interface used to view, create, update, explore, and contextualize attestations.
+ - **ATST Explorer:**  Build Etherscan-for-Attestations. No-code interface used to view, create, update, explore, and contextualize attestations.
 
-I can search for attestations by attester address, receiver address, and transaction hash
-I can see the latest attestations and all attestations
-I can see the transaction hash, status, block, timestamp, raw data, referenced attestations, referencing attestations, author, receiver, key, and value for each attestation
-An interface that allows user to read / view attestations
-An interface that allows users to make / update batch or single attestations
+  - Search for attestations by attester address, receiver address, and transaction hash
+  - See the latest attestations and all attestations
+  - See the transaction hash, status, block, timestamp, raw data, referenced attestations, referencing attestations, author, receiver, key, and value for each attestation
+  - An interface that allows user to read / view attestations
+  - An interface that allows users to make / update batch or single attestations
 
-TokenList.org-style AttestationList: Create a community-led initiative to improve discoverability, reputation and trust in attestations in a manner that is inclusive, transparent, and decentralized. Attestation Lists is a specification for lists of attestation metadata (e.g. address, decimals, ...) that can be used by any dapp interfaces that need one or more lists of attestations.
-An instance of an attestation list following a standard JSON schema and can be hosted publicly on ENS, IPFS, or HTTPS.
-Context on what attestation lists are
-Directions on how to validate that a schemas follow the proposed standard
-Directions on how to author a attestation list
-List data
-List URL
-List Name
-List version
-Link to the official homepage of the list manager
-Attestation data
-Attestation name
-Attestation author
-Attestation key
-Attestation value
-Attestation image
-Attestation description
-Directions on how to deploy an attestation list
-Examples of what a attestation list looks like
-ATST Schemas: Upgrade the ATST contract to enable schemas. A schema is a way for a client of the AttestationStation to understand the content of a given attestation.
+- **TokenList.org-style AttestationList:**  Create a community-led initiative to improve discoverability, reputation and trust in attestations in a manner that is inclusive, transparent, and decentralized. Attestation Lists is a specification for lists of attestation metadata (e.g. address, decimals, ...) that can be used by any dapp interfaces that need one or more lists of attestations.
 
-ATST Relayer: Make attestations on Optimism accessible on L1 Ethereum. This should have decent liveness (i.e not fall more than a few hours behind OP mainnet). It should be accessible from a smart contract. And, data should be well indexed and relatively easy to retrieve against the attested address.
+  - An instance of an attestation list following a standard JSON schema and can be hosted publicly on ENS, IPFS, or HTTPS.
+  - Context on what attestation lists are
+  - Directions on how to validate that a schemas follow the proposed standard
+  - Directions on how to author a attestation list
+    - List data
+      - List URL
+      - List Name
+      - List version
+      - Link to the official homepage of the list manager
+    - Attestation data
+      - Attestation name
+      - Attestation author
+      - Attestation key
+      - Attestation value
+      - Attestation image
+      - Attestation description
+  - Directions on how to deploy an attestation list
+  - Examples of what a attestation list looks like
 
-WORM ATST: Upgrade the ATST contract to write once, read many. Do not allow attestors to modify a previously written attestation.
-Identity Quick Hits
+- **ATST Schemas:** Upgrade the ATST contract to enable schemas. A schema is a way for a client of the AttestationStation to understand the content of a given attestation.
+
+- **ATST Relayer:** Make attestations on Optimism accessible on L1 Ethereum. This should have decent liveness (i.e not fall more than a few hours behind OP mainnet). It should be accessible from a smart contract. And, data should be well indexed and relatively easy to retrieve against the attested address.
+
+- **WORM ATST:**  Upgrade the ATST contract to write once, read many. Do not allow attestors to modify a previously written attestation.
+
+### Identity Quick Hits
 
 Events Ticketing: Create an application that lets creators create an event ticketing flow using attestations.
 
