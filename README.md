@@ -50,7 +50,7 @@ Optimism’s ***AttestationStation (ATST)*** is a data primitive that allows peo
 
 - **Global Passport NFT:** Create an NFT that acts as a global passport, which can receive “stamps” to signal where you’ve visited. 
 
-- **Decentralized Financial Regulator / Project Reputation:** Free, open source, on-chain star ratings of crypto projects, eventually adopted by US states and foreign states in lieu of SEC. (h/t [Balaji](https://twitter.com/balajis/status/1625723092537573376?s=46&t=t1EPp982MOOLNfuJTYeRlA))
+- **Decentralized Financial Regulator / Project Reputation:** Free, open source, on-chain star ratings of crypto projects. (h/t [Balaji](https://twitter.com/balajis/status/1625723092537573376?s=46&t=t1EPp982MOOLNfuJTYeRlA))
 
 
 ### Identity Use Cases
