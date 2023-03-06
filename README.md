@@ -110,6 +110,8 @@ The following ideas make use of AttestationStation to create new identity primit
 
 - **WORM ATST:**  Upgrade the ATST contract to write once, read many. Do not allow attestors to modify a previously written attestation.
 
+- **Right to be forgotten ATST:** Upgrade the ATST contract to allow an address to delete a transaction where it is the `about` address, regardless of the attestor.
+
 ### Identity Quick Hits
 
 - **Events Ticketing:** Create an application that lets creators create an event ticketing flow using attestations.
