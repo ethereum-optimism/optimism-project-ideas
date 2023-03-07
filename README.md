@@ -1,9 +1,7 @@
 ![Frame 1 (10) copy](https://user-images.githubusercontent.com/1016190/176318619-852ebfb8-7972-4c30-8c47-06e6ca3d5493.png)
 
 
-
-
-The Optimism ecosystem is overflowing with opportunity for builders. With OP Stack, Optimism Mainnet, and AttestationStation at your disposal, here is an always-growing list of Big Ideas for you to build.
+The Optimism ecosystem is overflowing with opportunities for builders. With OP Stack, Optimism Mainnet, and AttestationStation at your disposal, here is an always-growing list of Big Ideas for you to build.
 
 These ideas range from “the community really wishes this tool existed” all the way to “might change the course of human history.” 
 We draw inspiration from sources like [Vitalik’s blog](https://vitalik.ca/), community suggestions, and late-night brainstorms at conferences. 
@@ -133,7 +131,7 @@ The following ideas make use of AttestationStation to create new identity primit
 An alternative to a traditional faucet: the user uploads their contract + params/bytecode and the relayer deploys it for free and sends the user ~2 OP Goerli ETH for testing. Could require users to scan a QR code to use during events.
 
 **SDK Contributions**  
-Anything from improving documentation, adding a feature to creating a tutorial! Our SDK is still in it’s early stages, so all contributions are welcome and encouraged!  
+Anything from improving documentation, adding a feature to creating a tutorial! Our SDK is still in its early stages, so all contributions are welcome and encouraged!  
 [SDK Docs](https://sdk.optimism.io/), [Repo](https://github.com/ethereum-optimism/optimism/tree/develop/packages/sdk)
 
 **ethgasstation for Optimism**  
@@ -200,7 +198,7 @@ A protocol and UI for address-to-address messaging.
 
 ### 📊 **`DeFi`**  
 [**Optimistic CFD**](https://github.com/2xic/optimistic-cfd) `👀 LOOKING FOR CONTRIBUTORS`  
-A synth protocol that somewhat ressembles CFDs. The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See the design notes for more information.
+A synth protocol that somewhat resembles CFDs. The innovation lies in the fact that the protocol comes in to compensate imbalances between the longs and the shorts, while incentivizing the imbalance to correct itself. See the design notes for more information.
 
 **Automated Trading Bot**  
 A web app that lets users create automated trading bots, in the fashion of Option Alpha. This requires frontend, backend, contract and bot development!  
