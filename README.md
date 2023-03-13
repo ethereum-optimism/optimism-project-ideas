@@ -57,7 +57,7 @@ The following ideas make use of AttestationStation to create new identity primit
 
 ### Identity Use Cases
 
-- **Deep Fake Protection:** Create a tool for creators to attest that a livestream, video, image, or clip is from their real account(s). (h/t Livepeer)
+- **Deep Fake Protection:** Create a tool for creators to attest that a livestream, video, image, or clip is from their real account(s). (h/t Livepeer, [OpenOrigins Frankli](https://www.frankliapp.com/))
 
 - **Onchain Gaming Achievement System:** Create a decentralized achievement system as a public good that other games can build with.
   Features could include:
