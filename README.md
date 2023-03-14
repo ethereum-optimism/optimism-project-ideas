@@ -19,7 +19,108 @@ Whether you’re hacking, shipping, or scaling, there’s something on the list 
 
 # Ideas
 
-## New: Build These Identity Ideas
+## New: Superchain and the OP Stack Ideas
+
+[The OP Stack](https://stack.optimism.io/) is the standardized, shared, and open-source development stack powering Optimism Mainnet and the Superchain. 
+It maximizes interoperability and composability between different chains using the OP Stack.
+
+### Tools and Resources
+
+- [The Superchain Explainer](https://stack.optimism.io/docs/understand/explainer/#alt-data-availability-layer-plasma-protocol) including vision, roadmap, and opportunities.
+- [Deep Dive Tweet Thread](https://twitter.com/OPLabsPBC/status/1632186148578811904) on how it can work, how it can be built, and what it can enable.
+- [Getting Starting Guide](https://stack.optimism.io/docs/build/getting-started/) for launching your own Superchain-ready L2.
+
+The following ideas relate to products, companies, and infrastructure that will power the Superchain.
+
+### High Impact: Superchain Infra
+
+The Superchain is the end state of OP Stack and chains that run on it: a network of chains that share bridging, decentralized governance, upgrades, a communication layer and more. 
+You can hasten the Superchain’s existence by tackling the following infra projects.
+
+- **Universal Message Passing:** Write a messaging system that can communicate between different OP Stack chains. 
+Enable cross-chain transactions, without a waiting period, with [L2-to-L2 messages](https://stack.optimism.io/docs/understand/explainer/#low-latency-l2-to-l2-message-passing).
+
+- **Unified Block Explorers:** Create a block explorer or indexer that seamlessly explores (or indexes) multiple OP Stack chains. 
+  Consider a block-explorer-as-search-engine, where searching for “top dex traders” returns addresses that do the most dex volume.
+
+- **Indexing. Indexing. Indexing. Indexing. Indexing.** Create trustless indexing chains or tools that can seamlessly index every Superchain L2. 
+  Bonus idea: enable subscriptions to L1 events.
+
+- **Impact evaluation indexers.** A subset of indexing a chain, combine the index with measurements of the impact of that chain’s participants.
+
+- **Cross-Chain Oracles and other Utility Chains:** There is a huge opportunity for cross-chain oracles, as well as oracles that pull data from L1 and make it available in L2. 
+  Create entire chains with APIs that provide utility to users, products, and other chains.
+
+- **Alt-Data Availability Layer (aka Plasma Returns):** Create a [generic plasma protocol](https://stack.optimism.io/docs/understand/explainer/#alt-data-availability-layer-plasma-protocol), where transaction data is committed to on L1 but not supplied to L1 directly, with a data availability challenge fallback. 
+  A generic Plasma protocol is able to scale beyond what is possible on rollups because only the users who are interested in the transaction data will download the Plasma data, whereas with rollups every Ethereum node downloads all of the transaction data.
+
+### Superchain Modules & Products
+
+Launching an L2 means being able to run actual products on it. Create these use cases as a feature, product, or proof of concept.
+
+- **Crowdfunding**: Implement a kickstarter or gitcoin-like crowdfunding protocol as an L2.
+
+- **Generalized “Airline Miles” Rollup**: A common use case pitched by brands is bringing “points” on-chain. Create a framework for spinning up an L2 that manages these points and can be managed by the company launching it.
+
+- **Decentralized Vercel/AWS:** As data availability, bridging, and L2s improve, spinning up a new chain becomes a form of application hosting. 
+  Get the jump on this use case by creating Vercel-in-a-Rollup.
+
+- **Prediction Market Framework for Everything:** Create an L2 for prediction, voting, etc. that can tap into live events:
+
+  - Prediction markets on stats for other chains.
+  - Predict who gets kicked off The Bachelor/Bachelorette.
+  - Place predictions for fantasy sports outcomes.
+
+- **Put an entire movie on-chain:** We’re not sure how this would work, but that’s what the ideas list is for.
+
+### Everything Everywhere All L2s
+
+What apps, products, or ideas are fundamentally better as their own interoperable L2?
+
+- **Alt-L1 L2s:** Create EVM-compatible rollups for Solana, Cardano, Bitcoin - you get the idea.
+
+- **Doom *as* a Chain**: It’s cool to run Doom on a blockchain. But what if Doom *is* the blockchain? Create an OP Stack hack that puts Doom into the execution layer.
+
+- **Decentralized Roblox-Like:** Create a set of tools, including a version of Lua, that make it easy for Roblox developers to port their games to an OP Stack L2.
+
+- **DeSoc (Decentralized Social) Rollup:** Use OP Stack and your favorite social protocol (Lens? Farcaster? Your own?) and create a social rollup. Or, create a decentralized backend for a web2 social media service.
+
+- **Rollback Rollup Netcode for Games:** Create a version of [GGPO](https://github.com/pond3r/ggpo) or other implementation of deterministic lockstep rollback, encoded as a rollup that games can deploy on to enable netcode.
+
+### Other Superchain Ideas
+
+Help the Superchain come into existence by making it easier to deploy and run chains.
+
+- **Observability Tools:** Like Grafana, but rollups.
+- **Auto-Deply via Smart Contract:** send ether to a smart contract and a chain auto-deploys.
+- **Run Ethereum validators on Ethereum.**
+- **Flashbots Chain: What if the entire chain was focused on MEV?**
+
+
+
+## Community ideas
+
+- **Generalized oracles.** Right now pricing is a huge gap in defi tooling. 
+  Liquidity for many tokens exists in places where oracles are lacking, making it risky for lending protocols to deploy.
+
+- **Onchain pricing / oracles for NFTs.** Pretty much all pricing on NFTs uses some sort of centralized service. 
+  We're about to see an explosion of interesting stuff in this area, and we want to be ready for it.
+
+- **Decentralized RPC service, censor-proof experience at the RPC level.** Often sought, never solved, and potentially massive knock-on impact.
+
+- **Definitive account abstraction SDK.** There may be something internal to OP in the works, but in any case this would be pretty useful for, e.g., appchains leveraging OP Stack.
+
+- **Cron jobs for view functions / historical data.** There's a ton of engineering around, e.g., subgraphs pulling data. 
+  It's time-consuming and redundant, and often corners are cut and key data solutions omitted.
+  Instead, maybe indexed chain data or APIs that cache chain data.
+
+- **Gearbox or fork.** Would help with, for example, yields on LSDs. 
+  In fact, anything that would attract LSDs to Optimism through yield would be fantastic; there still aren't that many great options.
+
+- **Autocompounders / LP managers for bridge liquidity.** Bridge infra in this regard is rapidly evolving in a few dimensions — if it's possible, would be great to think through how to get a ton of liquidity on bridges.
+
+
+## Identity Ideas
 
 | ATTN ETHDenver Hackers: consider ideas from here to get started hacking. Many of these qualify for [Optimism’s official BUIDLathon bounties](https://oplabs.notion.site/Optimism-in-Denver-5f3f32a7469b4bbb94c11cf71ada8529). Note that whether something is on this list does not impact judging. However, these ideas have been identified as exciting by our community and may be rewarded with traction, which is a strong qualifier for RetroPGF and other rewards. |
 | :- |
