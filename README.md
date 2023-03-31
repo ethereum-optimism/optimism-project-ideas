@@ -316,6 +316,6 @@ A web app that lets users create automated trading bots, in the fashion of Opti
 
 # Other Resources
 * [Developer documentation](https://community.optimism.io/)  
-* [Get in touch](https://optimismpbc.typeform.com/get-in-touch)  
+* [Get in touch](https://forms.monday.com/forms/c867f3f357707ff1fb4af0d3d5080710?r=use1)  
 * [Apps on Optimism](https://www.optimism.io/apps/all)
 
